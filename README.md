@@ -1,10 +1,10 @@
-#### Cover Letter Generator: AI-Driven Personalization Pipeline
+### Cover Letter Generator: AI-Driven Personalization Pipeline
 This project leverages Google’s **Gemini 2.0 Flash** model and the LangChain framework to automate the creation of highly personalized cover letters by analyzing candidate resumes and specific job descriptions.
 
-#### 1. Background
+### 1. Background
 In the modern job market, generic applications often fail to pass through Applicant Tracking Systems (ATS) or catch the eye of recruiters. High-quality applications require a "tailored" approach, where the candidate’s experience is explicitly mapped to the job requirements. However, manually rewriting cover letters for every application is a time-intensive process that can lead to "application fatigue."
 
-#### 2. Business Problem
+### 2. Business Problem
 
 Candidates face a significant bottleneck: **The trade-off between volume and quality.**
 
@@ -12,22 +12,22 @@ Candidates face a significant bottleneck: **The trade-off between volume and qua
 
 - **Inconsistency**: Humans may overlook key keywords or requirements mentioned in the job description (JD).
 
-Scalability: Applying to dozens of roles while maintaining high quality is nearly impossible without technical assistance.
+- **Scalability**: Applying to dozens of roles while maintaining high quality is nearly impossible without technical assistance.
 
 This tool solves this by using Generative AI to bridge the gap between a static resume and a dynamic job description in seconds.
-
-#### 3. Methods
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 3. Methods
 The solution is built using a modular Python pipeline:
 
-PDF Processing: Utilizes PyPDF2 to extract raw text data from the user's resume.pdf.
+- **PDF Processing**: Utilizes ***PyPDF2*** to extract raw text data from the user's ***resume.pdf***.
 
-Orchestration: Employs LangChain Expression Language (LCEL) to create a seamless data pipeline: Prompt Template | LLM | Output Parser.
+- **Orchestration**: Employs **LangChain Expression Language (LCEL)** to create a seamless data pipeline: ***Prompt Template | LLM | Output Parser***.
 
-Generative AI: Integrates the ChatGoogleGenerativeAI interface to access the Gemini 2.0 Flash model, chosen for its speed and advanced reasoning capabilities.
+**Generative AI**: Integrates the ***ChatGoogleGenerativeAI*** interface to access the **Gemini 2.0 Flash** model, chosen for its speed and advanced reasoning capabilities.
 
-Prompt Engineering: A structured PromptTemplate ensures the output follows professional standards, including a strong intro, skill mapping, and a call-to-action.
-
-#### 4. Results
+- **Prompt Engineering**: A structured ***PromptTemplate*** ensures the output follows professional standards, including a strong intro, skill mapping, and a call-to-action.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 4. Results
 The pipeline successfully automates the following workflow:
 
 Environment Setup: Securely loads API credentials using python-dotenv.
@@ -44,7 +44,7 @@ Maintains a professional and persuasive tone.
 
 Formats the output as plain text for easy copying.
 
-#### 5. Conclusion & Summary of Findings
+### 5. Conclusion & Summary of Findings
 The integration of Large Language Models (LLMs) into the recruitment workflow drastically reduces the time required to generate high-quality application materials.
 
 Key Findings:
