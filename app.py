@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template
+from flask import Flask, render_template, request, redirect, url_for
 import os
 from logic import generate_letter
 
@@ -23,7 +23,7 @@ def handle_generate():
     cover_letter = generate_letter(file_path, job_description) 
 
     #showinng the result in the result.html template
-    return render_template('result.html', cover_letter=cover_letter)
+    return render_template('index.html', result=cover_letter, job_desc=job_description) + "<script>window.location.hash = 'result-section';</script>"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port = 8000,debug=True)

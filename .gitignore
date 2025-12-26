@@ -1,2 +1,5 @@
 #ignore environment files
 .env
+uploads/
+__pycache__/
+.pynb_checkpoints/
