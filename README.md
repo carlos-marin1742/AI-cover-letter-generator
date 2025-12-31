@@ -1,59 +1,25 @@
-### Cover Letter Generator: AI-Driven Personalization Pipeline
-This project leverages Google’s **Gemini 2.0 Flash** model and the LangChain framework to automate the creation of highly personalized cover letters by analyzing candidate resumes and specific job descriptions.
+### AI Cover Letter Architect
+**A Full-Stack Generative AI Tool built with Flask, LangChain, and Gemini 2.5/3.**
 
-### 1. Background
-In the modern job market, generic applications often fail to pass through Applicant Tracking Systems (ATS) or catch the eye of recruiters. High-quality applications require a "tailored" approach, where the candidate’s experience is explicitly mapped to the job requirements. However, manually rewriting cover letters for every application is a time-intensive process that can lead to "application fatigue."
+### 1. Purpose
+In a competitive job market, generic applications are often filtered out by recruiters and Applicant Tracking Systems (ATS). The **AI Cover Letter Architect** solves "application fatigue" by bridging the gap between a static resume and a specific job posting. It analyzes your unique experience and maps it directly to job requirements in seconds, providing a high-quality starting point for any application.
 
-### 2. Business Problem
+### 2. Key Features
+**- Intelligent PDF Parsing:** Automatically extracts and cleans text from uploaded resumes.
+**- Contextual Mapping:** Uses Gemini’s advanced reasoning to align your specific achievements with job requirements.
+**- Live UI Feedback:** Features a real-time "Architecting..." state to manage LLM latency and enhance user experience.
+**- Instant Clipboard Export:** A one-click "Copy Text" feature for seamless pasting into application portals.
+**- Security Focused:** Automatic cleanup of uploaded files and secure API environment handling via .env.
 
-Candidates face a significant bottleneck: **The trade-off between volume and quality.**
 
-- **Manual Effort:**  Writing a bespoke cover letter takes 30–60 minutes per job.
+### 3. Technology Stack
+**- Languages:** Python 3.13, HTML5, CSS3.
+**- Framework:** Flask (Python Micro-framework).
+**- AI Orchestration:** LangChain (LCEL).
+**- LLM Engine:** Google Gemini 2.5/3 (Flash-Lite).
+**- Frontend Library:** Bootstrap 5 (Responsive Design).
+**- PDF Processing:** PyPDF2.
 
-- **Inconsistency**: Humans may overlook key keywords or requirements mentioned in the job description (JD).
-
-- **Scalability**: Applying to dozens of roles while maintaining high quality is nearly impossible without technical assistance.
-
-This tool solves this by using Generative AI to bridge the gap between a static resume and a dynamic job description in seconds.
-
-### 3. Methods
-The solution is built using a modular Python pipeline:
-
-- **PDF Processing**: Utilizes *PyPDF2* to extract raw text data from the user's *resume.pdf*.
-
-- **Orchestration**: Employs **LangChain Expression Language (LCEL)** to create a seamless data pipeline: *Prompt Template | LLM | Output Parser*.
-
-**Generative AI**: Integrates the *ChatGoogleGenerativeAI* interface to access the **Gemini 2.0 Flash** model, chosen for its speed and advanced reasoning capabilities.
-
-- **Prompt Engineering**: A structured *PromptTemplate* ensures the output follows professional standards, including a strong intro, skill mapping, and a call-to-action.
-
-### 4. Results
-The pipeline successfully automates the following workflow:
-
-1. **Environment Setup**: Securely loads API credentials using *python-dotenv*.
-
-2. **Data Extraction**: Converts unstructured PDF data into clean string formats for the LLM.
-
-3. **Contextual Analysis**: The model identifies the most relevant skills from the resume that match the "AI Developer" (or other specified) job description.
-
-4. **Content Generation**: Produces a ready-to-use, professional cover letter that:
-
-    - Highlights specific ML/AI collaborations.
-
-    - Maintains a professional and persuasive tone.
-
-    - Formats the output as plain text for easy copying.
-
-### 5. Conclusion & Summary of Findings
-The integration of Large Language Models (LLMs) into the recruitment workflow drastically reduces the time required to generate high-quality application materials.
-
-**Key Findings**:
-
-- **Efficiency**: The tool reduces cover letter draft time from roughly 45 minutes to under **5 seconds**.
-
-- **Accuracy**: By using the "Flash" model, the system maintains high logical consistency while minimizing computational latency.
-
-- **Customization**: The use of PromptTemplate allows for easy adjustments to the "voice" of the letter (e.g., making it more creative or more formal) without changing the underlying code.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
