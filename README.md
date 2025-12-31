@@ -54,3 +54,24 @@ pip install -r requirements.txt
 ```plaintext
 GOOGLE_API_KEY=your_actual_key_here
 ```
+
+**4. Run the Server:**
+```bash
+python app.py
+```
+-------------------------------------------------------------------------------------------------------------------------------------
+
+### 5. Usage & Examples
+**1. Input:** Paste a Job Description from job board
+
+**2. Upload:** Select your resume
+
+**3. Generate:** Click "Generate Professional Letter" and watch AI architect your response
+
+**4. Export:** Click the **Copy Text** Button to instantly save the results to your clipboard for use in your application
+
+
+**Sample App images**
+![Initial Screen](./images/initial.png)
+![Uploading Resume and Pasting Cover Letter](./images/PastingCoverLetter.png)
+![Cover Letter Generation](./images/CoverLetter.png)
