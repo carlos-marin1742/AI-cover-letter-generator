@@ -6,35 +6,51 @@ In a competitive job market, generic applications are often filtered out by recr
 
 ### 2. Key Features
 **- Intelligent PDF Parsing:** Automatically extracts and cleans text from uploaded resumes.
+
 **- Contextual Mapping:** Uses Gemini’s advanced reasoning to align your specific achievements with job requirements.
+
 **- Live UI Feedback:** Features a real-time "Architecting..." state to manage LLM latency and enhance user experience.
+
 **- Instant Clipboard Export:** A one-click "Copy Text" feature for seamless pasting into application portals.
+
 **- Security Focused:** Automatic cleanup of uploaded files and secure API environment handling via .env.
 
+-------------------------------------------------------------------------------------------------------------------------------------
 
 ### 3. Technology Stack
 **- Languages:** Python 3.13, HTML5, CSS3.
+
 **- Framework:** Flask (Python Micro-framework).
+
 **- AI Orchestration:** LangChain (LCEL).
+
 **- LLM Engine:** Google Gemini 2.5/3 (Flash-Lite).
+
 **- Frontend Library:** Bootstrap 5 (Responsive Design).
+
 **- PDF Processing:** PyPDF2.
 
+-------------------------------------------------------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 4. Prerequisites and Installation 
+**Prerequisites**
 
-How to Run: 
+**1. Python 3.10+** Installed on your machine
 
-1. Place your resume.pdf in the root directory.
+**2. Google Gemini API Key** **Google Gemini API Key:** Obtain one for free at [Google AI Studio](https://aistudio.google.com/).
 
-2. Create a .env file and add your GEMINI_API_KEY.
+**Installation Steps**
 
-3. Install dependencies:
+**1. Clone The Repository**
+```bash
+git clone https://github.com/carlos-marin1742/AI-cover-letter-generator.git
+```
 
-Bash '''
-
-pip install langchain-google-genai PyPDF2 python-dotenv pandas
-
-'''
-
-4. Execute the script to see the generated cover letter in your console.
+**2. Install Dependencies:**
+```bash
+pip install -r requirements.txt
+```
+**3. Configure Environment Variables:** Create ***.env*** file in the root directory
+```plaintext
+GOOGLE_API_KEY=your_actual_key_here
+```
