@@ -72,6 +72,16 @@ python app.py
 
 
 **Sample App images**
+
+**Inital Screen**
 ![Initial Screen](./images/initial.png)
-![Uploading Resume and Pasting Cover Letter](./images/PastingCoverLetter.png)
+**Uploading Resume and pasting Job Description**
+![Uploading Resume and Pasting JD](./images/PastingCoverLetter.png)
+**Cover Letter Generation**
 ![Cover Letter Generation](./images/CoverLetter.png)
+
+
+### 6. Contact and Support 
+**- Developer:** Carlos Marin
+
+**- Project Link:** [Github Link](https://github.com/carlos-marin1742/AI-cover-letter-generator/)
