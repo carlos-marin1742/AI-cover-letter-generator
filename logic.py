@@ -47,22 +47,3 @@ Return only the cover letter text.
 
     # 3. Invoke
     return chain.invoke({"resume": resume_text, "job_description": job_description})
-
-
-## USED FOR TESTING PURPOSES ONLY
-
-if __name__ == "__main__":
-    print("--- Testing Logic ---")
-    # Debug: Print which keys were found (but hide the actual value for security)
-    print(f"GOOGLE_API_KEY found: {bool(os.getenv('GOOGLE_API_KEY'))}")
-    print(f"GEMINI_API_KEY found: {bool(os.getenv('GEMINI_API_KEY'))}")
-    
-    try:
-        # Ensure 'resume.pdf' actually exists in your current folder!
-        test_resume = "resume.pdf" 
-        test_job = "AI Developer role requiring Python expertise."
-        
-        result = generate_letter(test_resume, test_job)
-        print("\nSUCCESS! Generated Letter:\n" + "-"*20 + "\n" + result + "\n" + "-"*20)
-    except Exception as e:
-        print(f"\nFAILED! Error: {e}")
