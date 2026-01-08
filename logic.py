@@ -38,9 +38,16 @@ Using the resume and job description provided, write a professional cover letter
 
 Goal: Align my technical expertise—whether in Clinical Research or AI Engineering—with the specific needs of the job description.
 If the job is a Software or AI role, ensure at least one bullet point lists the Technical Stack (e.g., Python, SQL, React) specifically mentioned in the Job Description.
-In the first bullet point, specifically address the 'primary responsibility' listed in the job description to show immediate fit.
 If the job is Clinical Research-focused, highlight relevant experience with GCP, TMF, CTMS, and other clinical tools from my resume.
 Include a brief closing sentence before 'Sincerely' that expresses interest in an interview or further discussion.
+
+Bullet Point Logic: Create a direct link between the JD requirements and my resume.
+
+Header: Use a short, 2-3 word category name based on the JD requirement.
+
+Content: Start with a strong action verb. Briefly state the specific tool or project from my resume that proves I have that skill.
+
+Constraint: Keep each bullet point to a single, concise sentence. Avoid repeating the JD's phrasing inside the description
 
 Formatting Rules (Strict):
 
