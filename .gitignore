@@ -1,5 +1,12 @@
-#ignore environment files
+# Environment variables
 .env
+
+# Uploads
 uploads/
+
+# Python cache
 __pycache__/
-.pynb_checkpoints/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/

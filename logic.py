@@ -36,7 +36,7 @@ def generate_letter(resume_path, job_description):
         template = """
 Using the following resume and job description, write a professional cover letter. 
 Ensure to keep the cover letter concise and relevant to the job description.
-No longer than 1 page.
+ Slightly formal tone. Less than 250 words. With bullet points highlighting key qualifications. ensure to omit double **.
 Resume: {resume}
 Job Description: {job_description}
 Return only the cover letter text.
