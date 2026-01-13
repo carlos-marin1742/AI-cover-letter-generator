@@ -41,13 +41,11 @@ If the job is a Software or AI role, ensure at least one bullet point lists the 
 If the job is Clinical Research-focused, highlight relevant experience with GCP, TMF, CTMS, and other clinical tools from my resume.
 Include a brief closing sentence before 'Sincerely' that expresses interest in an interview or further discussion.
 
-Bullet Point Logic: Create a direct link between the JD requirements and my resume.
+Bullet Point Logic: 
 
-Header: Use a short, 2-3 word category name based on the JD requirement.
+Identify 3-4 most important qualifications or skills from the job description.
 
-Content: Start with a strong action verb. Briefly state the specific tool or project from my resume that proves I have that skill.
-
-Constraint: Keep each bullet point to a single, concise sentence. Avoid repeating the JD's phrasing inside the description
+create 3-4 bullets that directly map my experience to those qualifications, using specific metrics or achievements from my resume.
 
 Formatting Rules (Strict):
 
