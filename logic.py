@@ -36,43 +36,21 @@ def generate_letter(resume_path, job_description):
         template = """
 Using the resume and job description provided, write a professional cover letter.
 
-Goal: Align my technical expertise—whether in Clinical Research or AI Engineering—with the specific needs of the job description.
-If the job is a Software or AI role, ensure at least one bullet point lists the Technical Stack (e.g., Python, SQL, React) specifically mentioned in the Job Description.
-If the job is Clinical Research-focused, highlight relevant experience with GCP, TMF, CTMS, and other clinical tools from my resume.
-Include a brief closing sentence before 'Sincerely' that expresses interest in an interview or further discussion.
+"Act as a professional career coach and expert copywriter. Write a concise, high-impact cover letter for a [Target Job Title] position at [Company Name].
 
-Bullet Point Logic: 
+The tone should be professional, confident, and direct—avoiding "fluff" or overly flowery language. Use the following structure and details:
 
-Identify 3-4 most important qualifications or skills from the job description.
+The Hook: Start with a strong opening statement that mentions my interest in the role and explicitly connects my background in [Current/Past Field, e.g., Clinical Research] with my passion for [Target Field, e.g., AI/Automotive tech].
 
-create 3-4 bullets that directly map my experience to those qualifications, using specific metrics or achievements from my resume.
+The Bridge: Write a paragraph highlighting my experience at [Previous Company]. Focus on how I managed complex systems, improved data pipelines, and deployed technical solutions like [List 1-2 specific tools or methods, e.g., TensorFlow/NLP]. Show, don't just tell, how these skills solve problems for [Company Name].
 
-Formatting Rules (Strict):
+The Hard Skills: Include a brief section or paragraph emphasizing my technical toolkit, specifically mentioning [List 3-4 key skills, e.g., Python, PyTorch, Full-stack dev], and any relevant certifications.
 
-Plain text only. NO Markdown, NO bolding, NO asterisks (**).
+The Close: End with an enthusiastic but professional call to action, expressing a desire to discuss how my data-driven solutions can contribute to their specific goals.
 
-Use simple hyphens (-) for bullet points.
+Avoid markdown  formatting. 
 
-Use "Category Name:" followed by the description on the same line.
-
-Content Instructions:
-
-Conciseness: Length less than 275 words.
-
-Keywords: Prioritize the specific tools, languages, or regulations mentioned in the job description (e.g., Python, LLMs, and RAG for tech; GCP, TMF, and CTMS for clinical).
-
-Evidence-Based: For each bullet point, include a specific achievement or metric from my resume to demonstrate my impact.
-
-Tone: Slightly formal, professional, and solution-oriented.
-
-Structure:
-
-Opening: "Dear Hiring Manager,"
-
-Closing: "Sincerely," followed by [Your Name].
-
-Return ONLY the cover letter text.
-
+Style Guide: 1. Keep it under 250 words. 2. Use active verbs (e.g., 'Deployed,' 'Managed,' 'Extracted'). 3. Ensure the transition from my previous industry to this new role feels like a natural and valuable evolution.
 Resume: {resume} Job Description: {job_description}
 """
     )
