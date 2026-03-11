@@ -36,4 +36,4 @@ def handle_generate():
     return render_template('index.html', result=cover_letter, job_desc=job_description) + "<script>window.location.hash = 'result-section';</script>"
 
 if __name__ == '__main__':
-    app.run(port = 5000,debug=True)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
