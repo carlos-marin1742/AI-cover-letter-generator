@@ -1,11 +1,21 @@
 from flask import Flask, render_template, request, redirect, url_for
 import os
 from logic import generate_letter
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads/'
 
+#initiating Limiter
+limiter = Limiter(
+    app = app,
+    key_func = get_remote_address,
+    default_limits =["100/day", "50/hour"]
+)
+
 @app.route('/')
+@limiter.limit("10/minute")
 def index():
     return render_template('index.html')
 
