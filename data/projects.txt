@@ -1,0 +1,12 @@
+NeuroScan AI: A YOLO-based brain MRI classifier with a Node.js/Express 
+backend and React frontend, deployed on Render. Classifies MRI scans 
+using computer vision for medical imaging applications.
+
+AI Cover Letter Generator: Flask app using LangChain and Google Gemini 
+to generate tailored cover letters from resume PDFs and job descriptions.
+
+AI Stock Advisor: Streamlit app featuring Bollinger Bands, RSI, and 
+momentum tracking for stock analysis.
+
+AI Image Generator: React frontend with Hugging Face Inference API, 
+deployed as a static site on Render.

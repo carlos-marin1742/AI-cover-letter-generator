@@ -1,0 +1,3 @@
+Python, FastAPI, Flask, Django, React, Node.js
+LangChain, RAG pipelines, Pinecone, HuggingFace, YOLO
+LLM integration, Prompt engineering, Pydantic, REST APIs
