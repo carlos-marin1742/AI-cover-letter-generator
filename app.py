@@ -26,6 +26,7 @@ def handle_generate():
     resume_file = request.files['resume']
 
     #saving the file temporarily
+    os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
     file_path=os.path.join(app.config['UPLOAD_FOLDER'], resume_file.filename)
     resume_file.save(file_path)
 
