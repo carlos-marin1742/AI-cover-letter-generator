@@ -1,3 +1,7 @@
-Python, FastAPI, Flask, Django, React, Node.js
-LangChain, RAG pipelines, Pinecone, HuggingFace, YOLO
-LLM integration, Prompt engineering, Pydantic, REST APIs
+AI & ML: LLMs (OpenAI, Gemini, Llama/Groq, Anthropic), LangChain, RAG, Embeddings, Prompt Engineering, Computer Vision (YOLO), PyTorch, TensorFlow
+
+Backend & Frontend: Python (FastAPI, Flask, Django), Async/asyncio, Node.js/Express, React, JavaScript/TypeScript, REST APIs, Streamlit
+
+Data & DevOps: Vector DBs (Pinecone, Chroma), PostgreSQL, Pandas, PySpark, Docker, CI/CD, Git/GitHub, Cloud Deployment (Render/GCP)
+
+Compliance: HIPAA, FDA 21 CFR (Parts 11/50/54/56), ICH-GCP, PHI data handling, audit trail management

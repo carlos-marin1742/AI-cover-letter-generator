@@ -1,12 +1,14 @@
-NeuroScan AI: A YOLO-based brain MRI classifier with a Node.js/Express 
-backend and React frontend, deployed on Render. Classifies MRI scans 
-using computer vision for medical imaging applications.
+Agent Data Scientist | FastAPI, LangChain, React, Groq | Github | Preview
+Architected a full-stack AI application using FastAPI and React, engineering an async LangChain-Groq pipeline for automated exploratory data analysis and Python code generation with low-latency response handling.
+Designed a server-side code execution engine with Python's exec(), capturing matplotlib figures as base64 images and streaming live visualizations to the React frontend via FastAPI endpoints.
+Built a single-service production deployment where FastAPI serves both the LangChain REST API and compiled React frontend from one Uvicorn process, with CI/CD deployment on Render.
 
-AI Cover Letter Generator: Flask app using LangChain and Google Gemini 
-to generate tailored cover letters from resume PDFs and job descriptions.
+AI Cover Letter Architect | Flask, Gemini, LangChain, ChromaDB | Github | Preview
+Built a retrieval-augmented generation pipeline using LangChain, ChromaDB, and HuggingFace embeddings (all-MiniLM-L6-v2), achieving 100% retrieval precision across ML, Full Stack, and GenAI role categories.
+Engineered a custom evaluation framework measuring retrieval precision, grounding score, and output quality via LLM-as-judge (Gemini), establishing a repeatable scoring baseline for continuous improvement.
+Secured the API layer with input validation, prompt injection sanitization, and Flask-Limiter rate limiting to ensure reliable, safe operation under concurrent load.
 
-AI Stock Advisor: Streamlit app featuring Bollinger Bands, RSI, and 
-momentum tracking for stock analysis.
-
-AI Image Generator: React frontend with Hugging Face Inference API, 
-deployed as a static site on Render.
+NeuroScan AI | React, Node.js, YOLOv8, Express, Python | Github | Preview
+Engineered a full-stack MRI diagnostic platform integrating a Node.js/Express REST API with a Python computer vision service to classify brain scans using a custom-trained YOLO model — directly applicable to clinical imaging workflows.
+Designed an async child-process pipeline with custom file handling to ensure data integrity and compatibility with computer vision decoders under concurrent request load.
+Developed a React dashboard with asynchronous state management, reducing result interpretation time by 80% through real-time update handling.
